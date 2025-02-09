@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: API站
     name: api.yimoidc.cn
-    description: 'Built for anything connected to the Internet.'
+    description: '个人应用网站.'
     url: 'https://api.yimoex.cn'
     method: GET
     expectStatus: 200
