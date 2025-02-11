@@ -12,7 +12,7 @@ settings:
   monitorLabelNoData: '无数据'
   dayInHistogramNoData: '无数据'
   dayInHistogramOperational: '一切很好'
-  dayInHistogramNotOperational: ' 事件(s)' # xx incident(s) recorded
+  dayInHistogramNotOperational: ' 事件'
 
 monitors:
   - id: api
