@@ -29,7 +29,6 @@ monitors:
     method: GET
     expectStatus: 200
 
-
   - id: blog
     name: 个人博客(由Xlog强力驱动)
     url: 'https://blog.yimoidc.cn'
