@@ -15,15 +15,22 @@ settings:
   dayInHistogramNotOperational: ' 事件(s)' # xx incident(s) recorded
 
 monitors:
-  - id: API站
-    name: api.yimoidc.cn
+  - id: api
+    name: API站
     description: '个人应用网站.'
     url: 'https://api.yimoex.cn'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: 博客
+  - id: mc
+    name: Minecraft异响云官网
+    url: 'https://mc.yimoex.cn'
+    method: GET
+    expectStatus: 200
+
+
+  - id: blog
     name: 个人博客(由Xlog强力驱动)
     url: 'https://blog.yimoidc.cn'
     method: GET
