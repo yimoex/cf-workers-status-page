@@ -1,8 +1,8 @@
 settings:
   title: '异构云平台 - 状态页'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
-  logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 90 # number of days you want to display in histogram
+  url: 'http://monitor.yimoex.cn/' # used for Slack messages
+  logo: logo.jpg # image in ./public/ folder
+  daysInHistogram: 7 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: '系统正常运行中!'
