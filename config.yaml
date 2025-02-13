@@ -40,3 +40,4 @@ monitors:
     url: 'https://blog.yimoidc.cn'
     method: GET
     expectStatus: 200
+
