@@ -40,4 +40,3 @@ monitors:
     url: 'https://blog.yimoex.cn'
     method: GET
     expectStatus: 200
-
