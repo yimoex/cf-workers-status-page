@@ -2,7 +2,7 @@ settings:
   title: '异构云平台 - 状态页'
   url: 'http://monitor.yimoex.cn/' # used for Slack messages
   logo: logo.jpg # image in ./public/ folder
-  daysInHistogram: 60 # number of days you want to display in histogram
+  daysInHistogram: 80 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: '系统正常运行中!'
