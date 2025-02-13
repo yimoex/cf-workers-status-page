@@ -1,7 +1,7 @@
 settings:
   title: '异构云平台 - 状态页'
   url: 'http://monitor.yimoex.cn/'
-  logo: logo.jpg # image in ./public/ folder
+  logo: logo.jpg # image in ./public/
   daysInHistogram: 80
   collectResponseTimes: true
 
