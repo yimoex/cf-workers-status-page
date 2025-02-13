@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: api
-    name: API站
+    name: 异构云 - API站
     description: '个人应用网站.'
     url: 'https://api.yimoex.cn'
     method: GET
@@ -26,6 +26,12 @@ monitors:
   - id: mc
     name: Minecraft异响云官网
     url: 'https://mc.yimoex.cn'
+    method: GET
+    expectStatus: 200
+
+  - id: ai
+    name: 异心云AI聚合平台
+    url: 'https://ai.yimoex.cn'
     method: GET
     expectStatus: 200
 
