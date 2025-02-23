@@ -35,6 +35,18 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: pro
+    name: 异心云AI聚合平台 (Pro线路)
+    url: 'https://pro.yimoex.cn'
+    method: GET
+    expectStatus: 200
+
+  - id: reader
+    name: Koodo Reader
+    url: 'https://reader.yimoex.cn'
+    method: GET
+    expectStatus: 200
+
   - id: blog
     name: 个人博客(由Xlog强力驱动)
     url: 'https://blog.yimoex.cn'
